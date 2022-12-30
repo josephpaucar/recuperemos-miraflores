@@ -1,14 +1,14 @@
 /*
 Theme Name: Recuperemos Miraflores
 Theme URI: https://ejotec.com/
-Author: Joseph Paucar
-Author URI: https://github.com/josephpaucar
+Author: Biosalubrity
+Author URI: https://ejotec.com/
 Description: Portal web para enviar pedidos, quejas, denuncias o propuestas que aportaran a mejorar el distrito de Miraflores.
 Tags: TailwindCss, custom-theme.
 Version: 1.0
 Requires at least: 6.0
 Tested up to: 6.1.1
-Requires PHP: 8.1.9
+Requires PHP: 7.4.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -868,9 +868,9 @@ p, a, label {
 
 .wpcf7 .message__container span,
 .wpcf7 .info__container span {
-  display: block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .wpcf7 textarea {
@@ -929,6 +929,7 @@ p, a, label {
 
 .upload-items__item {
   width: 100%;
+  padding: 0.75rem;
 }
 
 @media (min-width: 768px) {
@@ -943,10 +944,6 @@ p, a, label {
   }
 }
 
-.upload-items__item {
-  padding: 0.75rem;
-}
-
 .upload-items__item input {
   padding: 0px;
 }
@@ -958,17 +955,17 @@ p, a, label {
 }
 
 .submit__container input {
-  width: auto;
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 82 99 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(242 242 242 / var(--tw-text-opacity));
-  font-size: 1.5rem;
-  line-height: 2rem;
-  padding: 0.75rem;
-  width: 16rem;
   margin-left: auto;
   margin-right: auto;
+  width: 16rem;
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 82 99 / var(--tw-bg-opacity));
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(242 242 242 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
