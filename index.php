@@ -2,15 +2,24 @@
 
 <section id="hero" class="w-full h-auto bg-primary md:py-8">
     <div class="md:grid md:grid-cols-8 md:grid-flow-row lg:container lg:mx-auto">
-        <div class="bg-miraflores w-full h-screen md:h-full md:col-start-1 md:col-end-5 lg:col-start-1 lg:col-end-6 p-6 flex flex-col justify-between text-secondary text-center">
-            <h1 class="text-4xl font-semibold tracking-wide">Recuperemos Miraflores</h1>
-            <h3 class="text-xl font-semibold">Portal vecinal hecho por miraflorinos para miraflorinos</h3>
+        <div class="bg-miraflores bg-cover bg-center bg-no-repeat w-full h-screen md:h-full md:col-start-1 md:col-end-5 lg:col-start-1 lg:col-end-6 p-5 lg:p-4 flex flex-col justify-between text-secondary text-center">
+            <h1 class="w-80 text-4xl md:text-5xl font-bold tracking-wide md:w-96 bg-primary mx-auto p-5 rounded-[16px]">Recuperemos Miraflores</h1>
+            <h3 class="text-xl font-semibold bg-primary mx-auto py-2 px-4 rounded-full">"Portal vecinal hecho por miraflorinos para miraflorinos"</h3>
         </div>
-        <div class="bg-primary w-full h-auto lg:col-start-6 md:col-start-5 md:col-end-9 lg:col-end-9 text-secondary text-center p-6">
-            <h3 class="text-2xl font-semibold py-4">Estimados vecinos miraflorinos:</h3>
-            <p class="text-2xl font-normal my-4">En este portal pueden enviar sus pedidos quejas, denuncias o propuestas que consideren aportarán a mejorar nuestro distrito, pueden enviar fotos, videos o audios que sustenten su reporte, nosotros nos encargaremos como plataforma vecinal de hacerlas llegar a las autoridades respectivas, ademàs contamos con nuestra fan page con más de 24 mil seguidores donde difundiremos los temas de relevancia.</p>
-            <h2 class="text-3xl">Vecino reporta</h2>
-            <a href="#reporta" class="block mx-auto bg-ligth text-xl text-primary mt-2 mb-4 p-3 w-64" href="#formulario-reporte">Enviar reporte</a>
+        <div class="bg-primary w-full h-auto lg:col-start-6 md:col-start-5 md:col-end-9 lg:col-end-9 text-secondary text-center">
+            <div class="bg-ultradark p-6">
+                <h3 class="text-2xl font-semibold py-4">Estimados vecinos miraflorinos:</h3>
+                <p class="text-2xl font-normal my-4">En este portal pueden enviar sus pedidos quejas, denuncias o propuestas que consideren aportarán a mejorar nuestro distrito, pueden enviar fotos, videos o audios que sustenten su reporte, nosotros nos encargaremos como plataforma vecinal de hacerlas llegar a las autoridades respectivas, ademàs contamos con nuestra fan page con más de 24 mil seguidores donde difundiremos los temas de relevancia.</p>
+            </div>
+            <div class="p-6">
+                <h2 class="text-3xl">Vecino reporta</h2>
+                <a href="#reporta" class="block mx-auto bg-ligth text-xl text-primary mt-2 mb-4 p-3 w-64" href="#formulario-reporte">Enviar reporte</a>
+                <div class="flex justify-between items-center w-60 mt-5 mx-auto">
+                    <a class="block" href="https://www.facebook.com/recuperemosmiraflores"><img class="w-12 h-12 fill-ultradark" src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.svg" alt="Facebook icon"></a>
+                    <a class="block" href="https://wa.me/51963109596"><img class="w-12 h-12 fill-ultradark" src="<?php echo get_template_directory_uri(); ?>/assets/img/whatsapp.svg" alt="Whatsapp icon"></a>
+                    <a class="block" href="mailto:reportes@recuperemosmiraflores.com"><img class="w-12 h-12 fill-ultradark" src="<?php echo get_template_directory_uri(); ?>/assets/img/envelope-solid.svg" alt="Email icon"></a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
